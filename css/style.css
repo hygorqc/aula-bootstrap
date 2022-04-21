@@ -1,4 +1,31 @@
 
+body {
+    background-color: rgba(193, 196, 170, 0.664);
+}
+
 .logo {
     margin-left: 20px;
+}
+
+.navbar {
+    background-color: #a6dbdbc0;
+    color: white;
+}
+
+.paginainicial {
+    background-color: rgba(127, 255, 212, 0);
+}
+
+.margin {
+    padding: 30px;
+}
+
+.produtos {
+    background-color: #a6dbdbc0;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
 }

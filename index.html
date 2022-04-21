@@ -2,12 +2,13 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Minha página</title>
+        <title class="title-pag">
+            Minha página</title>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img class="logo" src="img/logo-icon.png"  width="50">
@@ -16,18 +17,66 @@
               <div class="collapsee navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Página Inicial</a>
+                        <a class="nav-link active" href="#pagina-inicial">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Produtos</a>
+                        <a class="nav-link active" href="#produtos">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre nós</a>
+                        <a class="nav-link active" href="#quemsomos">Sobre nós</a>
                     </li>
-                    
                 </ul>
               </div>
             </div>
         </nav>
+        <section id="pagina-inicial">
+            <div class="container-fluid text-center paginainicial margin">
+                <h2>Página Inicial</h2>
+                <img src="img/notbook.jpg" class="rounded-circle" width="300px">
+                <h4 class="margin">Seja bem-vindo ao nosso site, trabalhamos com sistemas que facilitam seu dia-a-dia na empresa!</h4>
+            </div>
+        </section>
+
+        <selection id="produtos">
+            <div class="container-fluid text-center margin produtos">
+                <h2>Produtos</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/digitando.jpg" class="rounded-circle" width="100%">
+                            <h4 class="margin">Sistema de caixa</h4>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/digitando_1.jpg" class="rounded-circle" width="100%">
+                            <h4 class="margin">Leitor de código de barras</h4>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/digitando.jpg" class="rounded-circle" width="100%">
+                            <h4 class="margin">Emissor de notas fiscais</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </selection>
+        <section id="quemsomos">
+            <div class="container-fluid text-center margin">
+                <h2>Quem Somos</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/aperto.jpg" class="margin" width="100%">
+                            <h5>Somos a Coder's, trabalhamos com desenvolvimento de softwares e ferramentas para empresas de pequeno e médio porte, ajudando a sua empresa a destacar cada vez mais.</h5>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/digitando_1.jpg" class="margin" width="100%">
+                            <h5>Desenvolvemos softwares para otimizar sua rotina na empresa, ganhando tempo e diminuido os erros com a automatização dos sistemas.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid text-center bg-footer">
+            <p>Desenvolvido por Hygor Queiroz</p>
+        </footer>
     </body>
 </html>
